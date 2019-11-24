@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="0" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-17T19:34:35Z" name="Default suite" finished-at="2019-11-17T19:34:35Z" duration-ms="63">
+    <groups>
+    </groups>
+    <test started-at="2019-11-17T19:34:35Z" name="Default test" finished-at="2019-11-17T19:34:35Z" duration-ms="63">
+      <class name="myTestyDemoTest.ExtJsFormTest">
+        <test-method is-config="true" signature="initWebDriver(java.lang.String)[pri:0, instance:myTestyDemoTest.ExtJsFormTest@15043a2f]" started-at="2019-11-18T00:34:35Z" name="initWebDriver" finished-at="2019-11-18T00:34:35Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method initWebDriver but has not been marked @Optional or defined
+in C:\Users\Muhammad.Iftikhar\AppData\Local\Temp\testng-eclipse--448738441\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method initWebDriver but has not been marked @Optional or defined
+in C:\Users\Muhammad.Iftikhar\AppData\Local\Temp\testng-eclipse--448738441\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method signature="openUrl()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@15043a2f]" started-at="2019-11-18T00:34:35Z" name="openUrl" finished-at="2019-11-18T00:34:35Z" duration-ms="9" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="EditotGridPanelTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@15043a2f]" started-at="2019-11-18T00:34:35Z" name="EditotGridPanelTest" finished-at="2019-11-18T00:34:35Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditotGridPanelTest -->
+        <test-method signature="TabPanelTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@15043a2f]" started-at="2019-11-18T00:34:35Z" name="TabPanelTest" finished-at="2019-11-18T00:34:35Z" duration-ms="3" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TabPanelTest -->
+        <test-method is-config="true" signature="tearDownTestMethod()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@15043a2f]" started-at="2019-11-18T00:34:35Z" name="tearDownTestMethod" finished-at="2019-11-18T00:34:35Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestMethod -->
+      </class> <!-- myTestyDemoTest.ExtJsFormTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

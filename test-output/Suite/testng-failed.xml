@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="Chrome"/>
+  <test name="chrometesting(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="myTestyDemoTest.BootstrapFormTest">
+        <methods>
+          <include name="initWebDriver"/>
+          <include name="bFormPOAPFTest"/>
+          <include name="bFormTitleTest"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- myTestyDemoTest.BootstrapFormTest -->
+    </classes>
+  </test> <!-- chrometesting(failed) -->
+</suite> <!-- Failed suite [Suite] -->
